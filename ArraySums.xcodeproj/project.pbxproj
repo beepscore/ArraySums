@@ -64,6 +64,7 @@
 		DEE7E1841C4E99270043DAE7 = {
 			isa = PBXGroup;
 			children = (
+				DEE7E1B81C4E999D0043DAE7 /* README.md */,
 				DEE7E18F1C4E99270043DAE7 /* ArraySums */,
 				DEE7E1A91C4E99280043DAE7 /* ArraySumsTests */,
 				DEE7E18E1C4E99270043DAE7 /* Products */,
@@ -82,7 +83,6 @@
 		DEE7E18F1C4E99270043DAE7 /* ArraySums */ = {
 			isa = PBXGroup;
 			children = (
-				DEE7E1B81C4E999D0043DAE7 /* README.md */,
 				DEE7E1931C4E99270043DAE7 /* AppDelegate.h */,
 				DEE7E1941C4E99270043DAE7 /* AppDelegate.m */,
 				DEE7E1B51C4E99540043DAE7 /* ArraySummer.h */,
@@ -404,6 +404,7 @@
 				DEE7E1B11C4E99280043DAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEE7E1B21C4E99280043DAE7 /* Build configuration list for PBXNativeTarget "ArraySumsTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +413,7 @@
 				DEE7E1B41C4E99280043DAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
