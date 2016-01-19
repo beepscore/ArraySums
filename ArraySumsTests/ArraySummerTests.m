@@ -121,6 +121,8 @@
     XCTAssertFalse([ArraySummer hasEqualSums:array]);
     array = @[@4, @9, @4, @9];
     XCTAssertTrue([ArraySummer hasEqualSums:array]);
+    array = @[@-1, @9, @108, @-100];
+    XCTAssertTrue([ArraySummer hasEqualSums:array]);
 }
 
 @end
