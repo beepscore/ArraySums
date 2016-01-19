@@ -10,6 +10,13 @@
 
 @interface ArraySummer : NSObject
 
+/**
+ * @return YES if array contains an index such that
+ * the sum of element values in the "head", exclusive range from 0..index
+ * equals the sum of element values in the "tail", inclusive range from index...last
+ * If array hasEqualSums, index is likely to be near the middle of the array.
+ * Implementation starts at middle of array and works outward in both directions.
+ */
 + (BOOL)hasEqualSums:(NSArray *)array;
 
 /**
