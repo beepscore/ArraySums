@@ -13,3 +13,7 @@ Big O will be at least O(N)
 If elements are somewhat random, then the desired index is probably closer to the middle of the array.
 So probably can improve performance (if needed) by working from the middle out to the ends.
 Need to be careful about index off-by-one errors for arrays with odd or even number of elements.
+
+## Assumptions
+Assume sums of element values are within NSInteger valid range.
+
