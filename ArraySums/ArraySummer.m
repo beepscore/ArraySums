@@ -19,7 +19,7 @@
     }
 
     // integer division truncates, tail may have one more element than head
-    NSInteger const INDEX_MIDDLE = array.count / 2;
+    NSInteger const INDEX_MIDDLE = (array.count - 1) / 2;
 
     // may be a little faster to calculate both sums in one loop
     // could profile to check
