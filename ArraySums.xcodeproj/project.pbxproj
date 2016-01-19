@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		DEE7E1921C4E99270043DAE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7E1911C4E99270043DAE7 /* main.m */; };
 		DEE7E1951C4E99270043DAE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7E1941C4E99270043DAE7 /* AppDelegate.m */; };
-		DEE7E1981C4E99270043DAE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7E1971C4E99270043DAE7 /* ViewController.m */; };
 		DEE7E19B1C4E99270043DAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE7E1991C4E99270043DAE7 /* Main.storyboard */; };
 		DEE7E19D1C4E99270043DAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE7E19C1C4E99270043DAE7 /* Assets.xcassets */; };
 		DEE7E1A01C4E99270043DAE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE7E19E1C4E99270043DAE7 /* LaunchScreen.storyboard */; };
-		DEE7E1AB1C4E99280043DAE7 /* ArraySumsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7E1AA1C4E99280043DAE7 /* ArraySumsTests.m */; };
+		DEE7E1AB1C4E99280043DAE7 /* ArraySummerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7E1AA1C4E99280043DAE7 /* ArraySummerTests.m */; };
+		DEE7E1B71C4E99540043DAE7 /* ArraySummer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7E1B61C4E99540043DAE7 /* ArraySummer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +31,16 @@
 		DEE7E1911C4E99270043DAE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEE7E1931C4E99270043DAE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEE7E1941C4E99270043DAE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DEE7E1961C4E99270043DAE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEE7E1971C4E99270043DAE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DEE7E19A1C4E99270043DAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEE7E19C1C4E99270043DAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE7E19F1C4E99270043DAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEE7E1A11C4E99270043DAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE7E1A61C4E99280043DAE7 /* ArraySumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArraySumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE7E1AA1C4E99280043DAE7 /* ArraySumsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySumsTests.m; sourceTree = "<group>"; };
+		DEE7E1AA1C4E99280043DAE7 /* ArraySummerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySummerTests.m; sourceTree = "<group>"; };
 		DEE7E1AC1C4E99280043DAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE7E1B51C4E99540043DAE7 /* ArraySummer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraySummer.h; sourceTree = "<group>"; };
+		DEE7E1B61C4E99540043DAE7 /* ArraySummer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraySummer.m; sourceTree = "<group>"; };
+		DEE7E1B81C4E999D0043DAE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +82,11 @@
 		DEE7E18F1C4E99270043DAE7 /* ArraySums */ = {
 			isa = PBXGroup;
 			children = (
+				DEE7E1B81C4E999D0043DAE7 /* README.md */,
 				DEE7E1931C4E99270043DAE7 /* AppDelegate.h */,
 				DEE7E1941C4E99270043DAE7 /* AppDelegate.m */,
-				DEE7E1961C4E99270043DAE7 /* ViewController.h */,
-				DEE7E1971C4E99270043DAE7 /* ViewController.m */,
+				DEE7E1B51C4E99540043DAE7 /* ArraySummer.h */,
+				DEE7E1B61C4E99540043DAE7 /* ArraySummer.m */,
 				DEE7E1991C4E99270043DAE7 /* Main.storyboard */,
 				DEE7E19C1C4E99270043DAE7 /* Assets.xcassets */,
 				DEE7E19E1C4E99270043DAE7 /* LaunchScreen.storyboard */,
@@ -105,7 +107,7 @@
 		DEE7E1A91C4E99280043DAE7 /* ArraySumsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DEE7E1AA1C4E99280043DAE7 /* ArraySumsTests.m */,
+				DEE7E1AA1C4E99280043DAE7 /* ArraySummerTests.m */,
 				DEE7E1AC1C4E99280043DAE7 /* Info.plist */,
 			);
 			path = ArraySumsTests;
@@ -211,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE7E1981C4E99270043DAE7 /* ViewController.m in Sources */,
+				DEE7E1B71C4E99540043DAE7 /* ArraySummer.m in Sources */,
 				DEE7E1951C4E99270043DAE7 /* AppDelegate.m in Sources */,
 				DEE7E1921C4E99270043DAE7 /* main.m in Sources */,
 			);
@@ -221,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE7E1AB1C4E99280043DAE7 /* ArraySumsTests.m in Sources */,
+				DEE7E1AB1C4E99280043DAE7 /* ArraySummerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
