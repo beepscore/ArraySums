@@ -96,9 +96,6 @@
     return sumTail;
 }
 
-/**
- * @return next lowest index if array.count is even
- */
 + (NSInteger)middleIndexOfArray:(NSArray *)array {
     if (!array
         || [array isEqualToArray:@[]]) {
