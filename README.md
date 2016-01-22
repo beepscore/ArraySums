@@ -27,7 +27,9 @@ Take the difference in values at the indices and add this to the cumulative diff
 When you get to the ends, if the cumulative difference is 0 return true (YES).
 
 Else,
+Store the cumulative difference between head and tail from the first loop.
 Start a second loop working outwards from middle.
+Track a cumulative difference at a decrementing index and a cumulative difference at an incrementing index.
 Try decementing index, update first cumulative difference between head and tail. If 0 return true.
 Try incrementing index, update second cumulative difference between head and tail. If 0 return true.
 
